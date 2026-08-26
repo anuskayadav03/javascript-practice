@@ -67,3 +67,7 @@
 // console.log(students);
 
 
+              //TAKING USER INPUT 
+let username;
+username = window.prompt("what's your username?");
+console.log(username);
