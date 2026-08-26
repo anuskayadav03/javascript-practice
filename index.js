@@ -34,7 +34,7 @@ let age= 20;
 let student = false;
 let phone =1234567891;
 
-document.getElementById("p1").textContent=fullName;
-document.getElementById("p2").textContent=age;
-document.getElementById("p3").textContent=student;
-document.getElementById("p4").textContent=phone ;
+document.getElementById("p1").textContent= `my name is ${fullName}`;
+document.getElementById("p2").textContent=`my age is ${age}`;
+document.getElementById("p3").textContent=`am i in school : ${student}`;
+document.getElementById("p4").textContent=`my phone number is ${phone}`;
