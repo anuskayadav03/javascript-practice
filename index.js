@@ -1,3 +1,5 @@
+
+// BASICS OF JS
 //console.log("hello");
 //console.log("i like pizza" );
 
@@ -9,6 +11,8 @@
 //document.getElementById("myH1").textContent="HELLO";
 //document.getElementById("myp").textContent="world !";
 
+
+                      //VARIABLES 
 // let x=100;
 // console.log(x);
 // console.log(typeof(x));
@@ -40,3 +44,24 @@
 // document.getElementById("p3").textContent=`am i in school : ${student}`;
 // document.getElementById("p4").textContent=`my phone number is ${phone}`;
 
+                  // ARITHMETIC OPERATORS
+let students= 30;
+console.log(students);
+// students= students+3;       
+// students= students-6;
+//students= students*2;
+//students= students/2;
+//students= students**2;
+// let extrastudents= students % 3;
+
+//another way to write the above code
+students+=1;
+students-=1;
+students*=1;
+students**=1;
+students%=1;
+
+students++;   //increment
+students--;    ///decrement
+
+console.log(students);
