@@ -45,8 +45,8 @@
 // document.getElementById("p4").textContent=`my phone number is ${phone}`;
 
                   // ARITHMETIC OPERATORS
-let students= 30;
-console.log(students);
+// let students= 30;
+// console.log(students);
 // students= students+3;       
 // students= students-6;
 //students= students*2;
@@ -55,13 +55,15 @@ console.log(students);
 // let extrastudents= students % 3;
 
 //another way to write the above code
-students+=1;
-students-=1;
-students*=1;
-students**=1;
-students%=1;
+// students+=1;
+// students-=1;
+// students*=1;
+// students**=1;
+// students%=1;
 
-students++;   //increment
-students--;    ///decrement
+// students++;   //increment
+// students--;    ///decrement
 
-console.log(students);
+// console.log(students);
+
+
