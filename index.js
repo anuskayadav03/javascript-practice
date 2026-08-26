@@ -6,5 +6,21 @@
 
 //comments.
 
-document.getElementById("myH1").textContent="HELLO";
-document.getElementById("myp").textContent="world !";
+//document.getElementById("myH1").textContent="HELLO";
+//document.getElementById("myp").textContent="world !";
+
+let x=100;
+console.log(x);
+console.log(typeof(x));
+
+let cgpa=8.20;
+console.log(cgpa);
+console.log(typeof(cgpa));
+
+console.log(`you score ${cgpa} in your exam`);
+console.log(`i have ${x} rupees`);
+
+let firstName ="anushka";
+console.log(firstName);
+console.log(typeof(firstName));
+console.log(`my name is ${firstName}`);
