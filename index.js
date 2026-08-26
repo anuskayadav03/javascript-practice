@@ -24,3 +24,7 @@ let firstName ="anushka";
 console.log(firstName);
 console.log(typeof(firstName));
 console.log(`my name is ${firstName}`);
+
+let online=true;
+console.log(typeof(online));
+console.log(`bro is online: ${online}`);
