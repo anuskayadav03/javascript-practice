@@ -1,5 +1,5 @@
 
-// BASICS OF JS
+                  // BASICS OF JS
 //console.log("hello");
 //console.log("i like pizza" );
 
@@ -84,14 +84,40 @@
     // console.log(age);
     // console.log(typeof(age));
 
-    let x="";
-    let y="";
-    let z="";
+    // let x="";
+    // let y="";
+    // let z="";
 
-    x= Number(x);
-    y=String(y);
-    z=Boolean(z);
+    // x= Number(x);
+    // y=String(y);
+    // z=Boolean(z);
 
-    console.log(x , typeof(x));
-    console.log(y, typeof(y));
-    console.log(z, typeof(z));
+    // console.log(x , typeof(x));
+    // console.log(y, typeof(y));
+    // console.log(z, typeof(z));
+
+
+              //CONTANTS
+    // let pi= 3.14159; //not constant the value can be changed.
+    // let radius;
+    // let circumference;
+    
+    // radius=window.prompt("enter radius of circle");
+    // radius= Number(radius);
+
+    // circumference=2*pi*radius;
+    // console.log(circumference);
+
+    // const PI= 3.14159; //not constant the value can be changed.
+    // let radius;
+    // let circumference;
+
+    // radius = Number(radius);
+    // document.getElementById("submit").onclick =function(){
+    //      radius= document.getElementById("mytext").value;
+    //      circumference=2*PI*radius;
+    // document.getElementById("cir").textContent = circumference;
+    // }
+    // circumference = Number(circumference);
+    // console.log(typeof(circumference));
+    // console.log(typeof(radius));
