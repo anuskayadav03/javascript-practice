@@ -68,6 +68,13 @@
 
 
               //TAKING USER INPUT 
-let username;
-username = window.prompt("what's your username?");
-console.log(username);
+// let username;
+// username = window.prompt("what's your username?");
+// console.log(username);
+
+// document.getElementById("submit").onclick= function(){
+//     username = document.getElementById("myText").value;
+//     document.getElementById("myH1").textContent=`hello ${username}`
+// }
+
+
