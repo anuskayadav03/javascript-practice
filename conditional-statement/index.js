@@ -31,13 +31,29 @@
 //     console.log("you must be 18+ to have a license");
 // }
 
-// let age=25;
-// if(age>=20){
-// console.log("your age is above 20");
-// }
-// else if(age==0){
-//     console.log("your age is below 20");
-// }
-// else{
-//     console.log("your age is below 25 ");
-// }
+
+const text = document.getElementById("myage");
+const submit = document.getElementById("submit");
+const result = document.getElementById("result");
+
+let age;
+submit.onclick = function(){
+
+age = text.value;
+age = Number(age);
+
+if(age>=100){
+    result.textContent = "your age is above 99";
+
+}
+else if(age>=18){
+    result.textContent = "your age is above 18";
+}
+else if(age==0){
+    result.textContent = "your age is 0";
+}
+else{
+    result.textContent = "you must be 18+";
+   
+}
+}
