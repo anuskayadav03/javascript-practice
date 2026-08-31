@@ -8,3 +8,17 @@ let username = "      anuska   ";
 // username = username.trim();
 // console.log(username)
 
+// username = username.toLowerCase();
+// console.log(username);
+
+// username = username.toUpperCase();
+// console.log(username);
+
+// username = username.repeat(3);
+// console.log(username);
+
+// username = username.startsWith(" ");
+// console.log(username);
+
+// username = username.endsWith("k");
+// console.log(username);
