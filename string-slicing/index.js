@@ -12,8 +12,15 @@
 // console.log(firstchar);
 // console.log(lastchar2);
 
-const fullname = "anuska yadav";
-let firstname = fullname.slice(0, fullname.indexOf(" "));
-let lastname = fullname.slice( fullname.indexOf(" ")+1);
-console.log(firstname);
-console.log(lastname);
+// const fullname = "anuska yadav";
+// let firstname = fullname.slice(0, fullname.indexOf(" "));
+// let lastname = fullname.slice( fullname.indexOf(" ")+1);
+// console.log(firstname);
+// console.log(lastname);
+
+const email = "anushka.ydv@gmail.com";
+
+let username = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@")+1);
+console.log(username);
+console.log(extension);
