@@ -1,7 +1,16 @@
 // ---NO METHOD CHAINING --
-let username = window.prompt("enter your username : ");
+// let username = window.prompt("enter your username : ");
 
+// username = username.trim();
+// let letter = username.charAt(0);
+// letter = letter.toUpperCase();
 
+// let extrachars = username.slice(1);
+// extrachars = extrachars.toLowerCase();
+
+// username = letter + extrachars;
+
+// console.log(username);
 
 
 
