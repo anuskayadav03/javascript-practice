@@ -27,12 +27,22 @@
 // console.log(divide(2,3));
 // console.log(multiply(2,3));
 
-function evenOdd(number){
-    if(number %2 ==0){
-        console.log("number is even");
+// function evenOdd(number){
+//     if(number %2 ==0){
+//         console.log("number is even");
+//     }
+//     else{
+//         console.log("number is odd");
+//     }
+// }
+// console.log(evenOdd(13));
+
+function isvalid(email){
+    if(email.includes("@")){
+        return true;
     }
     else{
-        console.log("number is odd");
+        return false;
     }
 }
-console.log(evenOdd(13));
+console.log(isvalid("anu@gmail.com"))
