@@ -26,3 +26,13 @@
 // console.log(subtract(2,3));
 // console.log(divide(2,3));
 // console.log(multiply(2,3));
+
+function evenOdd(number){
+    if(number %2 ==0){
+        console.log("number is even");
+    }
+    else{
+        console.log("number is odd");
+    }
+}
+console.log(evenOdd(13));
