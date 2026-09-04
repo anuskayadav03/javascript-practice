@@ -8,3 +8,4 @@ function HappyBirthday(username , age){
 }
 
 HappyBirthday("anuska" ,20);
+HappyBirthday("kushal" ,20);
