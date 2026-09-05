@@ -1,5 +1,9 @@
-const hello = function(){
-    console.log("hello");
-}
+// const hello = function(){
+//     console.log("hello");
+// }
 
-hello();
+// hello();
+
+// setTimeout(() => {
+//     console.log("hello");
+// }, 3000);
