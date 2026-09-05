@@ -4,6 +4,12 @@ const person ={
     age:20,
     isStudent:true
 }
+const person2 ={
+    firstname:"anuska",
+    lastname:"yadav",
+    age:20,
+    isStudent:true
+}
 
 console.log(person.firstname);
 console.log(person.lastname);
