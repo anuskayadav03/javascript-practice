@@ -10,7 +10,7 @@
 //     console.log("good bye!");
 // }
 
-sum(display,1,2);
+sum(displaypage,1,2);
 
 function sum(callback ,x,y){
     let result = x+y;
@@ -18,4 +18,8 @@ function sum(callback ,x,y){
 }
 function display(result){
     console.log(result);
+}
+
+function displaypage(result){
+    document.getElementById("myh1").textContent = result;
 }
