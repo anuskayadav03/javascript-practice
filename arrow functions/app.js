@@ -5,7 +5,7 @@
 // hello();
 
 
-                        //ARROW FUNCTION
+                 //ARROW FUNCTION
 const hello = (name)=>console.log(`hello ${name}`);
 hello("anuska");            
 
