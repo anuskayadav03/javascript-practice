@@ -1,0 +1,16 @@
+class animal{
+    alive =true;
+
+    eat(){
+        console.log(`this ${this.name} is eating`);;
+    }
+    sleep(){
+        console.log(`this ${this.name} is sleeping`);
+    }
+}
+class Rabbit extends animal{
+   static name="rabbit";
+}
+class fish extends animal{
+   static name="fish";
+}
