@@ -10,6 +10,8 @@ displayproduct(){
 }
 }
 
-const product1 = new products("shirt",20);
+const product1 = new products("shirt",200);
+const product2 = new products("pants",300);
 
 product1.displayproduct();
+product2.displayproduct();
