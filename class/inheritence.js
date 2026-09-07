@@ -11,9 +11,13 @@ class animal{
 class Rabbit extends animal{
    static name="rabbit";
 }
-class fish extends animal{
+class Fish extends animal{
    static name="fish";
 }
 class Hawk extends animal{
    static name="Hawk";
 }
+
+const rabbit = new Rabbit();
+const fish = new Fish();
+const hawk = new Hawk();
