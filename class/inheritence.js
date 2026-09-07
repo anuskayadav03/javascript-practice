@@ -14,3 +14,6 @@ class Rabbit extends animal{
 class fish extends animal{
    static name="fish";
 }
+class Hawk extends animal{
+   static name="Hawk";
+}
