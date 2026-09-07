@@ -4,6 +4,10 @@ this.model=model,
 this.year=year,
 this.color=color
 }
-const car1 =new car("ford","mustang",2024,"red");
+const car1 =new Car("ford","mustang",2024,"red");
 
+console.log(car1);
 console.log(car1.make);
+console.log(car1.model);
+console.log(car1.year);
+console.log(car1.color);
