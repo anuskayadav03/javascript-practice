@@ -13,7 +13,10 @@ class user{
 
     constructor(username){
          this.username=username;
-         username++;
+         user.userCount++;
+    }
+    static getUserCount(){
+        console.log(`there are ${user.userCount} users online`);
     }
     sayHello(){
         console.log(`hello my name is ${this.username}`)
@@ -27,4 +30,4 @@ const user3 = new user("vedika");
 user1.sayHello();
 user2.sayHello();
 user3.sayHello();
-console.log(user.userCount);
+user.getUserCount();
