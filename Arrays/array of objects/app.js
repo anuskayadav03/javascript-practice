@@ -5,3 +5,5 @@ const fruits = [
 ]
 
 console.log(fruits[0].name);
+
+fruits.push({name:"grapes" , color:"green"});
