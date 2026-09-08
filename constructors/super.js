@@ -1,12 +1,12 @@
 class Animal{
-constructor(){
-
+constructor(name,age){
+this.name=name,
+this.age=age
 }
 }
 class Rabbit extends Animal{
-constructor(name,age,speed){
-    this.name=name,
-    this.age=age,
+constructor(speed){
+    super();
     this.speed=speed;
 }
 }
