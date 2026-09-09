@@ -8,4 +8,7 @@ const fruits = [
 // fruits.push({name:"grapes" , color:"green"});
 // console.log(fruits);
 
-fruits.forEach(fruit => console.log(fruit.name));
+// fruits.forEach(fruit => console.log(fruit.name));
+
+const fruitsName = fruits.map(fruit => fruit.name);
+console.log(fruitsName);
