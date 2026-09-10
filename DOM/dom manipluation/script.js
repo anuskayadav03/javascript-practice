@@ -9,6 +9,7 @@ newH1.style.textAlign="center";
 
 //append element to dom
 document.body.prepend(newH1);
-document.getElementById("box1").append(newH1);
+// document.getElementById("box1").append(newH1);
+document.getElementById("box1").prepend(newH1);
 
 //remove html element
