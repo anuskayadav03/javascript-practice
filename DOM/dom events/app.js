@@ -13,13 +13,16 @@ btn.addEventListener("click",() =>{
     console.log("button was clicked2");
 });
 
-btn.addEventListener("click",() =>{
+const handler3 = () =>{
     console.log("button was clicked3");
-});
+};
+
+btn.addEventListener("click" , handler3 )
+
 btn.addEventListener("click",() =>{
     console.log("button was clicked4");
 });
 
 btn.removeEventListener("click", () =>{
-    console.log("button wa")
+    console.log("click" , handler3)
 })
